@@ -1,0 +1,23 @@
+# Only documentation and demo media belong in this public repository.
+*.exe
+*.zip
+*.blockmap
+*.log
+*.db
+*.sqlite*
+*.bak
+.env*
+!.env.example
+node_modules/
+.venv/
+.git/
+release-assets/
+private-tools/
+private-work/
+trial/
+profile/
+profiles/
+backups/
+需求文档/
+.DS_Store
+Thumbs.db

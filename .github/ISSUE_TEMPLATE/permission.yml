@@ -1,0 +1,51 @@
+name: 非商业使用许可申请
+description: 免费下载不等于获准使用；批准前请勿开始使用。
+title: "[许可申请] 非商业用途"
+body:
+  - type: markdown
+    attributes:
+      value: "请勿提供真实姓名、邮箱、电话、学校/单位详细身份或学生资料。GitHub 账号由平台显示。提交本表不代表批准。"
+  - type: input
+    id: version
+    attributes:
+      label: 申请版本
+      value: "5.0.0 / public.1"
+    validations:
+      required: true
+  - type: textarea
+    id: purpose
+    attributes:
+      label: 非商业使用场景
+      description: 简述目的，不填写个人敏感资料。
+    validations:
+      required: true
+  - type: input
+    id: scope
+    attributes:
+      label: 设备或人数范围
+    validations:
+      required: true
+  - type: input
+    id: term
+    attributes:
+      label: 希望使用的期限
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: 是否需要修改、部署或再分发
+      description: 默认不申请这些权利；如需要请分别说明。
+  - type: checkboxes
+    id: agreement
+    attributes:
+      label: 使用边界
+      options:
+        - label: 已阅读 LICENSE.md，理解实际使用须先取得权利人明确书面许可。
+          required: true
+        - label: 此用途不涉及收费、广告、商业推广或经营用途。
+          required: true
+        - label: 批准前不开始使用，未经另行许可不修改或再分发。
+          required: true
+        - label: 本申请不包含个人敏感信息。
+          required: true
