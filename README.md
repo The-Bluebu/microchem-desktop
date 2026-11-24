@@ -6,13 +6,13 @@ Windows x64 · 中文界面 · 内置 RDKit · 核心功能离线运行
 
 > **可以免费下载，但使用前必须获得权利人的书面许可；禁止商用。** 非商业学习、学校课堂和研究测试也须先申请。本项目不是自由使用的开源软件。完整条款见 [LICENSE.md](LICENSE.md)，申请方法见 [使用许可申请](docs/PERMISSION.md)。
 
-[下载 Windows 软件](https://github.com/B-TQ/microchem-desktop/releases/tag/v5.0.0-public.1) · [申请非商业使用许可](https://github.com/B-TQ/microchem-desktop/issues/new?template=permission.yml)
+[下载 Windows 软件](https://github.com/The-Bluebu/microchem-desktop/releases/tag/v5.0.0-public.1) · [申请非商业使用许可](https://github.com/The-Bluebu/microchem-desktop/issues/new?template=permission.yml)
 
 ![真实桌面程序首页](docs/media/01-home.png)
 
 ## 下载、申请、启动
 
-1. 打开 [正式 Release 下载页](https://github.com/B-TQ/microchem-desktop/releases/tag/v5.0.0-public.1)，下载 Windows x64 便携 ZIP 或安装 EXE，并同时下载 `SHA256SUMS.txt`。仓库的绿色 Code → Download ZIP 只下载说明与演示，**不包含软件**。
+1. 打开 [正式 Release 下载页](https://github.com/The-Bluebu/microchem-desktop/releases/tag/v5.0.0-public.1)，下载 Windows x64 便携 ZIP 或安装 EXE，并同时下载 `SHA256SUMS.txt`。仓库的绿色 Code → Download ZIP 只下载说明与演示，**不包含软件**。
 2. 按 [申请说明](docs/PERMISSION.md) 建立 Issue，等待权利人明确批准。下载成功不代表已经获得使用许可。
 3. 便携版：完整解压 ZIP，再打开 `Microchem-Desktop` 文件夹中的 `微观化学演示台.exe`。不要在压缩软件里直接运行，不要只复制一个 EXE。安装版：运行安装程序并按提示安装。
 4. 首次运行会显示许可提醒；确认按钮只记录你的声明，不代替权利人的批准。获准使用后，从首页选择课程、模板或结构资料库。
@@ -136,3 +136,5 @@ Windows x64 · 中文界面 · 内置 RDKit · 核心功能离线运行
 第三方组件、字体和数据库数据按各自许可使用；本项目限制不改写它们的独立授权。详见 [第三方说明](THIRD_PARTY_NOTICES.md) 和随包 `resources/notices`。研究作者姓名等必要的公开学术署名不是本项目维护者的个人资料，依法应保留。
 
 本自定义许可禁止商用并要求事先许可，因此不能称为 OSI 意义的开源许可证。[OSI 定义](https://opensource.org/osd)要求不能限制商业等使用领域。GitHub 公开仓库也受平台查看、Fork 等规则约束，许可中已保留这类平台权利；见 [GitHub 许可说明](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository)。
+
+由 [Bluebu](https://github.com/The-Bluebu) 维护。
